@@ -1,0 +1,31 @@
+# Entornos virtuales
+venv/
+venv_test/
+.env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos
+data/raw/
+data/processed/
+
+# Modelos / artefactos generados
+artefactos/
+
+# Salidas del agente
+outputs/
+
+# Variables de entorno / claves API
+.env
+
+# Sistema
+.DS_Store
+*.egg-info/
+dist/
